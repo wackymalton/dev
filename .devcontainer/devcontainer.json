@@ -6,10 +6,13 @@
 	"image": "mcr.microsoft.com/powershell:lts-debian-11",
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {
-			"installZsh": "true"
-			"username": "vscode",
-			"upgradePackages": "false",
-			"nonFreePackages": "true"
+			"installZsh": true,
+			"installOhMyZsh": true,
+			"installOhMyZshConfig": true,
+			"upgradePackages": true,
+			"username": "automatic",
+			"userUid": "automatic",
+			"userGid": "automatic"
 		}
 	},
 
